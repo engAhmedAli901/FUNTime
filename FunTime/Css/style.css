@@ -1,0 +1,103 @@
+nav h3{
+     font-family: "Pacifico", sans-serif;
+}
+.nav-item a, #popular h1,#trending h1,#top h1,#now h1,#upcoming h1,.movie p , .vote ,.input label, .load_more button , .cat_disc , .mov_det h1 , h2 , .details{
+     font-family: "Patrick Hand", sans-serif;
+}
+.nav-item a{
+     font-size: x-large;
+     color: aliceblue !important;
+}
+#nav{
+    background-color: rgb(31, 29, 29);
+    border-top-color: red !important ;
+    border-bottom-color: rgb(0%, 0%, 69%) !important;
+     box-shadow: 
+     0 3px 10px rgb(0%, 0%, 69%),
+     0 -3px 10px red;
+}
+#popular h1,#trending h1,#top h1,#now h1,#upcoming h1{
+     color: black; 
+}
+body{
+    background-color: rgb(21, 21, 21);
+}
+.movie {
+    transition: transform 0.5s ease;
+}
+.mov-img{
+    transition: all 1s ease;
+    border-color: rgba(128, 0, 255, 0.5) !important;
+}
+
+.mov-img:hover{
+    border-color: gold !important;
+    opacity: 100% !important;
+}
+
+
+.movie:hover {
+    transform: scale(1.05);
+}
+.movie:hover .mov-img{
+    box-shadow: 
+     0 10px 200px rgba(128, 0, 255, 0.8)
+}
+.movie p{
+background-color: rgba(128, 0, 255, 0.4);
+
+}
+.movie:hover  p{
+        animation: pump 0.6s ease-in-out infinite alternate;
+
+}
+.input input{
+    background-color: black !important;
+    box-shadow: none !important;
+    border-color: rgba(128, 0, 255, 0.8);
+}
+.input input::placeholder{
+    color: white;
+    opacity: 50%;
+}
+
+.cat_disc{
+background-color: rgba(128, 0, 255, 1) !important;
+transform: translateX(-50%) !important;
+}
+.mov_det h1 , h2{
+    color: aliceblue;
+    text-shadow: 2px 15px 5px black;
+}
+
+.trailer{
+    border-color: rgba(128, 0, 255, 1) !important;
+}
+.details{
+    background-color: rgba(128, 0, 255, 1) !important;
+
+}
+.logo{
+   box-shadow: 2px 2px 150px rgba(128, 0, 255, 1); 
+}
+.watch{
+    font-family: "Bebas Neue", sans-serif;
+    font-size: large;
+    animation:  pump 0.6s ease-in-out infinite alternate;;
+}
+.navbar-nav .nav-link.active {
+    color: rgba(128, 0, 255, 1) !important;
+    font-weight: bold;
+}
+
+
+
+@keyframes pump {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.05);
+    }
+}
